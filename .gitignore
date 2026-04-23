@@ -1,0 +1,31 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Claude Code local settings (never commit secrets or user-specific config)
+.claude/settings.local.json
+
+# Generated spec artifacts during skill use (users should commit their own)
+architecture-spec.yaml
+architecture.mmd
+
+# OS
+Thumbs.db
